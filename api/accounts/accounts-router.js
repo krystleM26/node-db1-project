@@ -16,7 +16,8 @@ Accounts.getAll()
 })
 
 router.get('/:id', (req, res, next) => {
-  // DO YOUR MAGIC
+  Accounts.getById()
+   
 })
 
 router.post('/', (req, res, next) => {
